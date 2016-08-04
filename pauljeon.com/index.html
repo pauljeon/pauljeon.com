@@ -76,8 +76,9 @@
                             <div class="icons text-center">
                                 <a href="https://www.linkedin.com/in/pauljeon1" target="_blank" title="LinkedIn Profile" class="icon-button linkedin"><i class="icon-linkedin fa fa-linkedin"></i><span></span></a>
                                 <a itemprop="sameAs" href="https://www.youtube.com/channel/UCYQwn82l5IPau720IWl5RTg" target="_blank"  title="YouTube Profile"class="icon-button youtube"><i class="icon-youtube fa fa-youtube"></i><span></span></a>
+                                <a itemprop="sameAs" href="https://github.com/pauljeon" target="_blank"  title="Github Profile"class="icon-button github"><i class="icon-github fa fa-github"></i><span></span></a>
                                 <a itemprop="sameAs" href="https://www.quora.com/profile/Paul-Jeon-3" target="_blank" title="Quora Profile" class="icon-button quora"><i class="fa fa-fw"><strong>Q</strong></i><span></span></a>
-                                <a itemprop="sameAs" href="https://www.instagram.com/hipaulpaul/?hl=en" target="_blank"  title="Instagram Profile"class="icon-button instagram"><i class="icon-instagram fa fa-instagram"></i><span></span></a>
+                                <!-- <a itemprop="sameAs" href="https://www.instagram.com/hipaulpaul/?hl=en" target="_blank"  title="Instagram Profile"class="icon-button instagram"><i class="icon-instagram fa fa-instagram"></i><span></span></a> -->
                               	<a itemprop="sameAs" href="https://medium.com/@yjeon0" target="_blank"  title="Medium Profile" class="icon-button medium"><i class="icon-medium fa fa-medium"></i><span></span></a>
                             </div>
                         </div>
@@ -271,7 +272,7 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12">
-						<p>I've worked at local high schools, rapidly growing startups as well as established corporations. I've also led multiple teams on different consulting projects. These experiences give a well-rounded perspective on how to understand and tackle difficult problems using data-driven techniques.</p>
+						<p align = "center">I've worked at local high schools, rapidly growing startups as well as established corporations. I've also led multiple teams on different consulting projects. These experiences give a well-rounded perspective on how to understand and tackle difficult problems using data-driven techniques.</p>
 						<ul class="v-timeline mt50">
 							<li>
 								<h3 class="v-heading wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s"><i class="fa fa-graduation-cap"></i> Education</h3>
@@ -500,7 +501,7 @@
 					<div class="col-sm-12">
 						<h3 class="section-title">Projects</h3>
 						<div class="section-title-border"></div>
-						<p>These are my projects that I've developed or contributed to. My main interests and previous projects lie in web development, application design, and data-related programs. Many of these are still under construction and will be coming soon! </p>
+						<p align = "center">These are my projects that I've developed or contributed to. My main interests and previous projects lie in web development, application design, and data-related programs. Many of these are still under construction and will be coming soon! </p>
 					</div>
 				</div>
 
@@ -509,7 +510,7 @@
 						<ul id="filter" class="list-inline filter-tags">
 							<li><a href="all" class=" btn-sm btn-theme-inverse btnactive" data-group="all">All</a></li>
 							<li><a href="branding" class="btn btn-sm btn-theme-inverse" data-group="branding">Product Design</a></li>
-							<li><a href="web" class="btn btn-sm btn-theme-inverse" data-group="web">Web</a></li>
+							<li><a href="web" class="btn btn-sm btn-theme-inverse" data-group="data">Data Science</a></li>
 							<li><a href="app" class="btn btn-sm btn-theme-inverse" data-group="writing">Writing</a></li>
 						</ul>
 					</div>
@@ -517,106 +518,124 @@
 			</div>
 			<div class="GITheWall">
 				<ul id="portfolio-container" class="text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
-					<li class="portfolio-item" data-groups='["all", "branding"]' href="remote.#portfolioModal3" data-toggle="modal" class="portfolio-link">
+					<li class="portfolio-item" data-groups='["all", "data"]' class="portfolio-link">
 						<figure>
-							<div class="portfolio-img">
-								<a class="overlay">
-									<span class="title">eBay SOLO</span>
-									<span class="category">product design</span>
-								</a>
-								
-								<img src="assets/img/portfolio/solo.jpg" alt="" class="img-responsive">
+							<span class="project-title">Airbnb Data Analysis</span><br>
+							<span class="project-category">data science</span>
+							<div class="portfolio-img" href = "#" data-target = "#portfolioModal6" data-toggle="modal">
+								<a class="overlay"></a>
+								<img src="assets/img/portfolio/airbnb.jpg" alt="" class="img-responsive">
+							</div>
+							<div class = "project_description"> 
+								<span>Using Scikit-learn, Numpy, Pandas and Matplotlib, analyzed Airbnb listing data to understand and predict SF pricings </span>
 							</div>
 						</figure>
 					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' href="remote.#portfolioModal1" data-toggle="modal" class="portfolio-link">
+					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
 						<figure>
-							<div class="portfolio-img">
-								<a class="overlay">
-									<span class="title">Charter</span>
-									<span class="category">product design</span>
-								</a>
+								<span class="project-title">eBay SOLO</span><br>
+								<span class="project-category">product design</span>
+							<div class="portfolio-img" href = "#" data-target = "#portfolioModal3" data-toggle="modal">
+								<img src="assets/img/portfolio/solo.jpg" class="img-responsive">
+							<a class="overlay"></a>
+							</div>
+							<div class = "project_description">
+								<span> Product concept of a gifting and wish-listing app for millennials that combines power of social media and structured data </span>
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
+						<figure>
+							<span class="project-title">Charter </span><br>
+							<span class="project-category">product design</span>
+							<div class="portfolio-img" href = "#" data-target = "#portfolioModal1" data-toggle="modal">
 								<img src="assets/img/portfolio/charter.jpg" alt="" class="img-responsive"> 
+								<a class="overlay"></a>
+							</div>
+							<div class = "project_description">
+								<span> Proof-of-concept feature that combines traditional map and calendar to visualizes schedules spatially and temporally</span>
 							</div>
 						</figure>
 					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' href="remote.#portfolioModal7" data-toggle="modal" class="portfolio-link">
+					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
 						<figure>
-							<div class="portfolio-img">
-								<a class="overlay">
-									<span class="title">EvenTrack</span>
-									<span class="category">product design</span>
-								</a>
+							<span class="project-title">EvenTrack</span><br>
+							<span class="project-category">product design</span>
+							<div class="portfolio-img" href = "#" data-target = "#portfolioModal7" data-toggle="modal">
 								<img src="assets/img/portfolio/event.jpg" alt="" class="img-responsive">
+								<a class="overlay"></a>
+							</div>
+							<div class = "project_description">
+								<span>As a finalist to Wells Fargo Protothon, created a product concept that allows Millennials to track their finances </span>
 							</div>
 						</figure>
 					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' href="remote.#portfolioModal4" data-toggle="modal" class="portfolio-link">
+					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
 						<figure>
-							<div class="portfolio-img">
-								<a  class="overlay">
-									<span class="title">Eluci Foundation</span>
-									<span class="category">product design</span>
-								</a>
+							<span class="project-title">Eluci Foundation</span><br>
+							<span class="project-category">product design</span>
+							<div class="portfolio-img" href = "#" data-target = "#portfolioModal4" data-toggle="modal">
 								<img src="assets/img/portfolio/eluci.jpg" alt="" class="img-responsive">
+								<a class="overlay"></a>
+							</div>
+							<div class = "project_description">
+								<span>Founded a verified 501c3 non-profit organization that focuses on using design to raise political awareness for social issues </span>
 							</div>
 						</figure>
 					</li>
-					<li class="portfolio-item" data-groups='["all", "web"]' href="remote.#portfolioModal2" data-toggle="modal" class="portfolio-link">
+					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
 						<figure>
-							<div class="portfolio-img">
-								<a class="overlay">
-									<span class="title">CMG Consulting Website</span>
-									<span class="category">web</span>
-								</a>
+							<span class="project-title">CMG Website</span><br>
+							<span class="project-category">product design</span>
+							<div class="portfolio-img" href = "#" data-target = "#portfolioModal2" data-toggle="modal">
 								<img src="assets/img/portfolio/cmg.jpg" alt="" class="img-responsive">
+								<a class="overlay"></a>
+							</div>
+							<div class = "project_description">
+								<span>Built website using bootstrap libraries. Implemented Knight Timeline, profile modals, image rotators and contact forms</span>
 							</div>
 						</figure>
 					</li>
-					<li class="portfolio-item" data-groups='["all", "writing"]' href="remote.#portfolioModal5" data-toggle="modal" class="portfolio-link">
+					<li class="portfolio-item" data-groups='["all", "writing"]' class="portfolio-link">
 						<figure>
-							<div class="portfolio-img">
-								<a class="overlay">
-									<span class="title">Quora Profile</span>
-									<span class="category">writing</span>
-								</a>
+							<span class="project-title">Quora Answers</span><br>
+							<span class="project-category">writing</span>
+							<div class="portfolio-img" href = "#" data-target = "#portfolioModal5" data-toggle="modal">
 								<img src="assets/img/portfolio/quora.jpg" alt="" class="img-responsive">
+								<a class="overlay"></a>
+							</div>
+							<div class = "project_description">
+								<span> As the most viewed writer in data science and 5 other fields as of June 2016, I use quora to explore new emerging tech fields </span>
 							</div>
 						</figure>
 					</li>
-					<!-- <li class="portfolio-item" data-groups='["all", "app"]' href="#portfolioModal6" data-toggle="modal" class="portfolio-link">
+					</li> 
+					<li class="portfolio-item" data-groups='["all", "writing"]' class="portfolio-link">
 						<figure>
-							<div class="portfolio-img">
-								<a class="overlay">
-									<span class="title">Gitlet</span>
-									<span class="category">Program</span>
-								</a>
-								<img src="assets/img/portfolio/git.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li> -->
-					<li class="portfolio-item" data-groups='["all", "writing"]' href="remote.#portfolioModal8" data-toggle="modal" class="portfolio-link">
-						<figure>
-							<div class="portfolio-img">
-								<a class="overlay">
-									<span class="title">LinkedIn Pulse Articles</span>
-									<span class="category">writing</span>
-								</a>
+							<span class="project-title">LinkedIn Articles</span> <br>
+							<span class="project-category">writing</span>
+							<div class="portfolio-img" href = "#" data-target = "#portfolioModal8" data-toggle="modal">
 								<img src="assets/img/portfolio/blog.jpg" alt="" class="img-responsive">
+								<a class="overlay"></a>
+							</div>
+							<div class = "project_description">
+								<span> Articles written about data science, technology and my life experience and how each of these things relate to the bigger picture </span>
 							</div>
 						</figure>
 					</li>
-					<!-- <li class="portfolio-item" data-groups='["all", "app"]' href="#portfolioModal9" data-toggle="modal" class="portfolio-link">
+					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
 						<figure>
-							<div class="portfolio-img">
-								<a class="overlay">
-									<span class="title">Meter Viewer</span>
-									<span class="category">Program</span>
-								</a>
-								<img src="assets/img/portfolio/meter.jpg" alt="" class="img-responsive">
+							<span class="project-title">eBay Me</span><br>
+							<span class="project-category">product design</span>
+							<div class="portfolio-img" href = "#" data-target = "#portfolioModal9" data-toggle="modal">
+								<img src="assets/img/portfolio/me.jpg" alt="" class="img-responsive">
+								<a class="overlay"></a>
+							</div>
+							<div class = "project_description">
+								<span> At eBay's intern conference, I pitched eBay Me. The presentation was in front of over 200+ interns, along with chief executives. </span>
 							</div>
 						</figure>
-					</li> -->
+					</li>
 					<!-- <li class="portfolio-item" data-groups='["all", "branding"]' href="#portfolioModal10" data-toggle="modal" class="portfolio-link">
 						<figure>
 							<div class="portfolio-img">
@@ -641,9 +660,10 @@
 	                        	<body onkeypress="ESCclose(event)">
 	                            <h2>Charter</h2>
 	                            <hr>
-	                            <p> Charter is a proof-of-concept feature that combines a traditional map, calendar and school application together. It shows a user-friendly interface that visualizes one's schedule that interacts with other locations both spatially and temporally.</p>
-	                            <embed src="assets/pdf/charter.pdf#page=1&zoom=50" type="application/pdf" width="100%" height="600px">
-  								<p> <a href="assets/pdf/charter.pdf"></a></p>
+	                            <p>Charter is a proof-of-concept feature that combines a traditional map, calendar and school application together. It shows a user-friendly interface that visualizes one's schedule that interacts with other locations both spatially and temporally.</p>
+	                            <div class = "restructure">
+	                            	<embed src="assets/pdf/charter.pdf#page=1&zoom=50" type="application/pdf" width="700px" height="500px">
+  								</div>
 	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
@@ -679,9 +699,9 @@
 	                            <h2>eBay SOLO</h2>
 	                            <hr>
 	                            <p>During my internship at eBay, my team made a product concept for a gifting app that focuses on millennials. We compiled all our design, research and ideas into the slidedeck and a visual demo.</p>
-	                            <iframe width="420" height="315" src="https://www.youtube.com/embed/2j_4XMwlOr4" frameborder="0" allowfullscreen></iframe>
-	                            <embed src="assets/pdf/solo.pdf#page=1&zoom=50" type="application/pdf" width="100%" height="600px">
-  								<p> <a src="assets/pdf/solo.pdf"></a></p>
+	                            <div class = "restructure">
+	                            	<embed src="assets/pdf/solo.pdf#page=1&zoom=50" type="application/pdf" width="700px" height="500px" align="center">
+	                            </div><br>
 	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
@@ -730,23 +750,27 @@
 	            </div>
 	        </div>
 	    </div>
-	    <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" >
+	    <div class="portfolio-modal modal fade" id="portfolioModal6" >
 	        <div class="modal-content">
 	            <div class="container">
 	                <div class="row">
 	                    <div class="col-lg-8 col-lg-offset-2">
 	                        <div class="modal-body">
-	                            <h2>Gitlet Application</h2>
+	                            <h2>Airbnb Data Analysis</h2>
 	                            <hr>
-	                            <p>Gitlet is a version control system modeled after git. Implemented with the same functionality as git such as pulling, pushing, committing, logging, and even merging, git is the culmination of CS61B at UC Berkeley and data structures.</p>
-	                            
+	                            <p>Using the Inside Airbnb listings data for San Francisco, I was able to understand popular trends and predict SF listing prices given certain characteristics. </p> <br>
+
+								<p>Written in Python (packages: numpy, pandas, scikit-learn, mpl_toolkits, matplotlib),t his project is meant to give deeper understanding of the airbnb listing data, and introduce how powerful and convenient scikit-learn package's algorithm functions are.</p>
+	                            <img src="assets/pdf/airbnb1.png" width="100%" height="400"> </img>
+	                            <span> Airbnb's most important feature based on machine learning </span> <br><br>
+ 								<h4><u><a target = "_blank" href = "https://github.com/pauljeon/airbnb-data-analysis/blob/master/analysis.ipynb"> Check out the full analysis! </a></u></h4>
 	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
 	                </div>
 	            </div>
 	        </div>
-	    </div> -->
+	    </div>
 	    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1"><input autofocus>
 	        <div class="modal-content">
 	            <div class="container">
@@ -786,23 +810,24 @@
 	            </div>
 	        </div>
 	    </div>
-	    <!-- <div class="portfolio-modal modal fade" id="portfolioModal9" >
+	    <div class="portfolio-modal modal fade" id="portfolioModal9" >
 	        <div class="modal-content">
 	            <div class="container">
 	                <div class="row">
 	                    <div class="col-lg-8 col-lg-offset-2">
 	                        <div class="modal-body">
-	                            <h2>Meter Viewer</h2>
+	                            <h2>eBay Me: Pitch Presentation</h2>
 	                            <hr>
-	                            <p> Developed by Lucid's Development and customer success team, Meter Viewer is a Quality Assurance tool that takes in multiple different excel spreadsheets of data and visualizes the data. It was written in python.</p>
-	                            
+	                            <p> At eBay's annual intern conference, I pitched eBay Me: A selling platform for services and labor. The presentation was in front of over 200+ interns, along with few chief executives.</p>
+	                            <span> Watch the full speech here! </span> <br> <br>
+	                            <iframe width="420" height="315" src="https://www.youtube.com/embed/UJSHauhdMKE" frameborder="0" allowfullscreen></iframe> <br> <br>
 	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 	                        </div>
 	                    </div>
 	                </div>
 	            </div>
 	        </div>
-	    </div> -->
+	    </div>
 		</section>
 
 		<!-- Facts -->
@@ -814,7 +839,7 @@
 						<p>Winning Awards</p>
 					</div>
 					<div class="col-sm-3">
-						<h1 class="counter">7</h1>
+						<h1 class="counter">9</h1>
 						<p>Personal Projects</p>
 					</div>
 					<div class="col-sm-3">
@@ -841,13 +866,13 @@
 				<div class="row">
 					<div class="col-sm-6 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
 						<p>
-							<strong>Connect with Me!</strong> If you have any inquiries, or would like to speak to me about any opportunities, don't hesitate to shoot me an email!
+							<strong>Connect with me!</strong> If you have any inquiries, or would like to speak to me about any opportunities, don't hesitate to shoot me an email!
 						</p>
-						<ul class="list-contacts">
+						<!-- <ul class="list-contacts">
 							<li><i class="fa fa-mobile-phone"></i> (925) 785-2381</li>
 							<li><i class="fa fa-map-marker"></i> 2520 Hillegass Avenue <br> Berkeley, CA 94720</li>
 							<li><i class="fa fa-envelope-o"></i> <a href="mailto:yjeon@berkeley.edu">yjeon@berkeley.edu</a></li>
-						</ul>
+						</ul> -->
 					</div>
 					<div class="col-sm-6 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
 						<form class="form-horizontal" action="assets/php/contactForm.php" method="post" role="form" id="contactForm">
