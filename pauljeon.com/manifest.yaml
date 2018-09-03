@@ -1,0 +1,5 @@
+---
+applications:
+- name: pauljeon.com
+  memory: 512M
+  instances: 1

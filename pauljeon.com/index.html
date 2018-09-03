@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111166660-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-111166660-1');
+		</script>
+
+
 		<meta charset="utf-8">
-		<meta property="og:image" content="assets/img/background/thumbnail.png" />
+		<meta property="og:site_name" content="Paul Jeon">
+		<meta property="og:description" content="Paul Jeon's portfolio">
+		<meta property="og:image" content="assets/img/background/thumbnail.png">
+		<meta property="og:url" content="http://pauljeon.com/">
+
 		<meta name="image" content ="assets/img/background/thumbnail.png" >
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Paul Jeon's Website">
 		<meta name="author" content="Paul Jeon">
-		<meta name="keywords" content="Python, Java, SQL, HTML, CSS, XML, XHTML, JavaScript, design, berkeley, software engineer, data, analysis, science">
+		<meta name="keywords" content="Python, Java, SQL, HTML, CSS, XML, XHTML, JavaScript, design, berkeley, uc berkeley, R, product, analytics, research, software engineer, data, analysis, data science, product management, linkedin, ebay, SAP, lucid, business, operations, paul jeon, paul, jeon, younghoon, korean">
+
 		<title>Paul Jeon</title>
 
 		<!-- Stylesheets -->
@@ -23,7 +39,7 @@
 		<!-- Magnific-popup lightbox -->
 		<link href="assets/css/magnific-popup.css" rel="stylesheet">
 		<!-- Custom styles CSS -->
-		<link href="assets/css/style.css" rel="stylesheet" media="screen">
+		<link href="assets/css/style1.css" rel="stylesheet" media="screen">
 
 		<!-- Important Owl stylesheet -->
 		<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
@@ -46,7 +62,7 @@
 	<body data-spy="scroll" data-target="#nav" data-offset="80">
 		<!-- Menu -->		
 		<nav class="navbar navbar-default" role="navigation" id="nav">
-		  <div class="container">
+		  <div class="container" style="padding:10px 2%;">
 			<div class="navbar-header">
 			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
 				<span class="sr-only">Toggle navigation</span>
@@ -59,12 +75,11 @@
 
 			<div class="collapse navbar-collapse navbar-right" id="navbar">
 			  <ul class="nav navbar-nav">
-				<li><a href="#home">Home <span class="sr-only">home</span></a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#resume">Resume</a></li>
-				<li><a href="#skills">Skills</a></li>
+				<li><a href="#about" offset="300px">About</a></li>
+				<li><a href="#resume">Experience</a></li>
 				<li><a href="#portfolio">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#writing">Writing</a></li>
+				<li><a href="#blog">Blog</a></li>
 			  </ul>			
 			</div>
 		  </div>
@@ -79,16 +94,16 @@
                             <div class="icons text-center">
                                 <a href="https://www.linkedin.com/in/pauljeon1" target="_blank" title="LinkedIn Profile" class="icon-button linkedin"><i class="icon-linkedin fa fa-linkedin"></i><span></span></a>
                                 <a itemprop="sameAs" href="https://www.youtube.com/channel/UCYQwn82l5IPau720IWl5RTg" target="_blank"  title="YouTube Profile"class="icon-button youtube"><i class="icon-youtube fa fa-youtube"></i><span></span></a>
-                                <a itemprop="sameAs" href="https://github.com/pauljeon" target="_blank"  title="Github Profile"class="icon-button github"><i class="icon-github fa fa-github"></i><span></span></a>
+
                                 <a itemprop="sameAs" href="https://www.quora.com/profile/Paul-Jeon-3" target="_blank" title="Quora Profile" class="icon-button quora"><i class="fa fa-fw"><strong>Q</strong></i><span></span></a>
                                 <!-- <a itemprop="sameAs" href="https://www.instagram.com/hipaulpaul/?hl=en" target="_blank"  title="Instagram Profile"class="icon-button instagram"><i class="icon-instagram fa fa-instagram"></i><span></span></a> -->
-                              	<a itemprop="sameAs" href="https://medium.com/@yjeon0" target="_blank"  title="Medium Profile" class="icon-button medium"><i class="icon-medium fa fa-medium"></i><span></span></a>
+                              	<a itemprop="sameAs" href="http://pauljeon.com/blog" target="_blank"  title="Wordpress Blog" class="icon-button wordpress"><i class="icon-wordpress fa fa-wordpress"></i><span></span></a>
                             </div>
                         </div>
 						<h1 class="headingz">Paul Jeon</h1>
 						<p>
 							<div class = "stuff">
-							<span class="rotate"> Software Developer, Data Analyst, Future KPOP Star, Product Manager</span></div>
+							<span class="rotate"> Software Engineer, Future KPOP Star, Data Analyst, Product Manager</span></div>
 						</p>
 					</div>
 					<div class="arrow-down">
@@ -99,11 +114,12 @@
 		</section>
 		
 		<!-- About -->
-		<section id="about" class="section section-solid">
+		<section class="section section-solid">
+			<div id="about" class="anchorz"> </div>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h3 class="section-title">About</h3>
+						<h3 class="section-title">About Me</h3>
 						<div class="section-title-border"></div>
 					</div>
 				</div>
@@ -114,11 +130,11 @@
 					</div>
 					<div class="col-sm-8 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
 						<p class="lead">
-							<strong>Hi There! </strong>I'm Paul and I tend to poke my nose into mischief. I love being unconventional, and I get in a bit of trouble for it. <br> Here's a little about me:
+							<strong>Hi There! </strong>I'm Paul and I tend to always find myself in interesting situations. I love being unconventional and going on adventures.<br> Here's a little about me:
 						</p>
 						<p>
 							<strong> Capabilities: </strong> <br>
-							- Studies Computer Science & Business at UC Berkeley <br>
+							- Eats endless bowls of KBBQ <br>
 							- Sleeps through four different alarms in the morning <br>
 							- Runs a record-breaking 14 minute mile
 						</p>
@@ -151,6 +167,7 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-6 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
+						<!-- Learn -->
 						<div class="feature-box-container">
 							<div class="feature-box">
 								<div class="icon">
@@ -163,6 +180,8 @@
 								</div>
 							</div>
 						</div>
+
+						<!-- Design -->
 						<div class="feature-box-container">
 							<div class="feature-box">
 								<div class="icon">
@@ -176,7 +195,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
+
+					<div class="col-sm-6 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">	
+						<!-- Prototype -->
 						<div class="feature-box-container">
 							<div class="feature-box">
 								<div class="icon">
@@ -189,6 +210,8 @@
 								</div>
 							</div>
 						</div>
+
+						<!-- Volunteer -->
 						<div class="feature-box-container">
 							<div class="feature-box">
 								<div class="icon">
@@ -203,10 +226,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="container">
+			<div class="container">
 				<div class="row">
                     <div class="col-sm-12" data-wow-delay="0.2s">
-                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel" style="margin-bottom:-80px;">
+                        	<br>
                             <!-- Bottom Carousel Indicators -->
                             <ol class="carousel-indicators">
                                 <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive" alt="">
@@ -220,7 +244,7 @@
                             <!-- Carousel Slides / Quotes -->
                             <div class="carousel-inner text-center">
 
-                                <!-- Quote 1 -->
+                                <!-- Quote 1: Nathan -->
                                 <div class="item active">
                                     <blockquote>
                                         <div class="row">
@@ -232,7 +256,8 @@
                                         </div>
                                     </blockquote>
                                 </div>
-                                <!-- Quote 2 -->
+
+                                <!-- Quote 2: Lucky -->
                                 <div class="item">
                                     <blockquote>
                                         <div class="row">
@@ -243,7 +268,8 @@
                                         </div>
                                     </blockquote>
                                 </div>
-                                <!-- Quote 3 -->
+
+                                <!-- Quote 3: Kathleen -->
                                 <div class="item">
                                     <blockquote>
                                         <div class="row">
@@ -254,23 +280,23 @@
                                         </div>
                                     </blockquote>
                                 </div>
-                            </div>
 
-                            
+                            </div>
                         </div>
                     </div>
                 </div>
 			</div>
 			</div>
 		</section>
-		
-		
+
+
 		<!-- Resume -->
-		<section id="resume" class="section section-solid">
+		<section class="section section-solid" >
+			<div id="resume" class="anchorz"> </div>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h3 class="section-title">Resume</h3>
+						<h3 class="section-title">Experience</h3>
 						<div class="section-title-border"></div>
 					</div>
 				</div>
@@ -278,18 +304,46 @@
 					<div class="col-sm-12">
 						<p align = "center">I've worked at rapidly growing startups as well as established corporations. I've also led multiple teams on different consulting projects. These experiences give a well-rounded perspective on how to understand and tackle difficult problems using data-driven techniques.</p>
 						<ul class="v-timeline mt50">
+							
+							<!-- Education -->
 							<li>
 								<h3 class="v-heading wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s"><i class="fa fa-graduation-cap"></i> Education</h3>
 							</li>
+
+							<!-- UC Berkeley -->
 							<li>
 								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.3s" datetime="2013-04-18"><span><b>2014 - 2017</b></span></time>
+								<div class="v-icon" data-toggle="collapse" data-target="#toggle-7"><i class="fa fa-plus"></i></div>
+								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.3s">
+									<h4><div href="#" data-toggle="collapse" data-target="#toggle-7"><strong>University of California, Berkeley</strong></div></h4>
+									<p id="toggle-7" class="collapse in"> - Bachelor's in Interdisciplinary Studies with a focus in Computer Science & Business <br>
+									- Involved in student government, dance organizations & business clubs <br>
+									- Received four undergraduate scholarships </p>
+								<br>
+								<img class="experience_photo" src="assets/img/experience/berkeley.jpg" alt="">
+								</div>
+							</li>
+
+							<!-- CMG Consulting -->
+							<li>
+								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.3s" datetime="2013-04-18"><span><b></b></span></time>
+								<div class="v-icon" data-toggle="collapse" data-target="#toggle-8"><i class="fa fa-plus"></i></div>
+								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.3s">
+									<h4><div><strong>CMG Strategy Consulting</strong> | <em>President</em></div></h4>
+									<p id="toggle-8" class="collapse in">Led 30-member organization providing strategy consulting for over 25+ clients such as Google, Uber, and Airbnb </p>
+ 									<br>
+									<img class="experience_photo" src="assets/img/experience/cmg.jpg" alt="">
+								</div>
+							</li>
+
+							<!-- Eluci Foundation -->
+							<li>
+								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.3s" datetime="2013-04-18"><span><b></b></span></time>
 								<div class="v-icon" data-toggle="collapse" data-target="#toggle-4"><i class="fa fa-plus"></i></div>
 								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.3s">
-									<h4><a href="#" data-toggle="collapse" data-target="#toggle-4"><strong>University of California, Berkeley</strong></a></h4>
-									<p id="toggle-4" class="collapse in"> - Majoring in Interdisciplinary Studies with a focus in computer science and business <br>
-									- Founded a 501c3 Non-Profit Organization for sexual assult victims <br>
-									- Involved in student government, dance organizations, and business clubs <br>
-									- Received four undergraduate scholarships </p>
+									<h4><div href="#" data-toggle="collapse" data-target="#toggle-4"><strong>Eluci Foundation</strong> | <em>Founder</em></div></h4>
+									<p id="toggle-4" class="collapse in"> Founded a 501c3 non-profit organization that raised over $1,500+ through Indiegogo campaigns for charities
+
 								</div>
 							</li>
 						</ul>
@@ -297,570 +351,325 @@
 							<li>
 								<h3 class="v-heading wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s"><i class="fa fa-paper-plane-o"></i> Professional Experience</h3>
 							</li>
+
+							<!-- LinkedIn -->
 							<li>
 								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.2s" datetime="2013-04-17"><span><b>May - Aug 2017</b></span></time>
 								<div class="v-icon" data-toggle="collapse" data-target="#toggle-5"><i class="fa fa-plus"></i></div>
 								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.2s">
-									<h4><a href="#" data-toggle="collapse" data-target="#toggle-5"> <strong> LinkedIn </strong> | <em> Product Operations</em></a></h4>
-									<p id="toggle-5" class="collapse in">Built a microsite platform that tracks KPIs and maps industry benchmarks to objective-oriented client lifecycle journey</p>
+									<h4><div href="#" data-toggle="collapse" data-target="#toggle-5"> <strong>LinkedIn</strong> | <em>Product Analytics</em></div></h4>
+									<p id="toggle-5" class="collapse in">Implemented an alert system that tracks KPIs and maps industry benchmarks to objective-oriented client lifecycle journey</p>
+									<br>
+									<img class="experience_photo"src="assets/img/experience/li.jpg" alt=""> 
 								</div>
 							</li>
+
+							<!-- eBay -->
 							<li>
 								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s" datetime="2013-04-15 13:15"><span><b>May - Aug 2016</b></span></time>
 								<div class="v-icon" data-toggle="collapse" data-target="#toggle-6"><i class="fa fa-plus"></i></div>
 								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s" >
-									<h4><a href="#" data-toggle="collapse" data-target="#toggle-6"><strong>eBay</strong> | <em>Software Developer</em></a></h4>
+									<h4><div href="#" data-toggle="collapse" data-target="#toggle-6"><strong>eBay</strong> | <em>Software Engineering</em></div></h4>
 									<p id="toggle-6" class="collapse in">Created and managed a new data management tool for the seller lifecycle with the vertical integration team</p>
+									<br>
+									<img class="experience_photo"src="assets/img/experience/ebay.jpg" alt=""> 
 								</div>
 							</li>
+
+							<!-- SAP -->
 							<li>
 								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s" datetime="2013-04-15 13:15"><span><b>Jan - May 2016 </b></span></time>
 								<div class="v-icon" data-toggle="collapse" data-target="#toggle-1"><i class="fa fa-plus"></i></div>
 								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s" >
-									<h4><a href="#" data-toggle="collapse" data-target="#toggle-1"><strong>SAP</strong> | <em>Product Manager </em></a></h4>
-									<p id="toggle-1" class="collapse in">Developed front and back end of an user-centered code review tool to enhance accessibility, create simple user interface, and implement new features. </p>
+									<h4><div href="#" data-toggle="collapse" data-target="#toggle-1"><strong>SAP</strong> | <em>Product Management </em></div></h4>
+									<p id="toggle-1" class="collapse in">Developed front and back end of an user-centered code review tool to enhance accessibility, create simple user interface, and implement new features. </p><br>
+									<img class="experience_photo"src="assets/img/experience/sap.jpg" alt=""> 
 								</div>
 							</li>
+
+							<!-- Lucid -->
 							<li>
 								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.1s" datetime="2013-04-16 21:30"><span><b>May - Dec 2015</b></span></time>
 								<div class="v-icon" data-toggle="collapse" data-target="#toggle-2"><i class="fa fa-plus"></i></div>
 								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.1s">
-									<h4><a href="#" data-toggle="collapse" data-target="#toggle-2"><strong>Lucid</strong> |<em> Data Engineer</em></a></h4>
+									<h4><div href="#" data-toggle="collapse" data-target="#toggle-2"><strong>Lucid</strong> | <em>Data Engineering & Analytics</em></div></h4>
 									<p id="toggle-2" class="collapse in">Utilized SQL queries and python scripts to analyze large data sets, visualize emergent trends, and to optimize product efficiency. </p>
 								</div>
 							</li>
-							<li>
-								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.2s" datetime="2013-04-17"><span><b>Aug - Dec 2015</b></span></time>
-								<div class="v-icon" data-toggle="collapse" data-target="#toggle-3"><i class="fa fa-plus"></i></div>
-								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.2s">
-									<h4><a href="#" data-toggle="collapse" data-target="#toggle-3"><strong> Dropbox </strong> | <em> Consultant</em></a></h4>
-									<p id="toggle-3" class="collapse in">Worked with UC Berkeley's Strategy Consulting Club to provide industry-specific solutions to its new B2B product shift in enterprise branding.</p>
-								</div>
-							</li>
 						</ul>
+
 					</div>
 				</div>
 
-				<div class="container">
-				<div class="row">
-					<div class="v-time wow fadeInLeft">
-						<div id="owl-clients" class="owl-carousel">
-							<div class="owl-item">
-								<img src="assets/img/company/linkedin.png" alt="" css="margin-top: 5px"> </div>
-							<div class="owl-item">
-								<img src="assets/img/company/ebay.png" alt=""> </div>
-							<div class="owl-item">
-								<img src="assets/img/company/sap.png" alt=""> </div>
-							<div class="owl-item">
-								<img src="assets/img/company/dropbox.png" alt=""> </div>
-							<div class="owl-item">
-								<img src="assets/img/company/lucid.png" alt=""> </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">                          
-						<a class="btn icon-btn btn-primary btn-group-lg wow bounceInBottom" target="_blank" href="assets/Paul_Jeon_Resume1.pdf"> Resume</a>                     
-                	</div>
-				</div>
-			</div>
 			</div>
 		</section>
 		
-		<!-- Skills -->
-		<section class="section" id="skills">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h3 class="section-title">Skills</h3>
-						<div class="section-title-border"></div>
-					</div>
-				</div>
-				<div class="row personal-skills">
-					<div class="col-sm-8 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
-						<h4>Programming: Languages | Frameworks | Libraries </h4>
-						<h6>Python / SQL / R</h6>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-								90%
-							</div>
-						</div>
-						<h6>Pandas / Numpy / Django / Scipy </h6>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-								80%
-							</div>
-						</div>
-						<h6>HTML / CSS / JavaScript / Bootstrap</h6>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-								75%
-							</div>
-						</div>
-						<h6>Java</h6>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-								40%
-							</div>
-						</div>
-						<!-- <h6>Ruby on Rails / PHP</h6>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-								20%
-							</div>
-						</div> -->
-					</div>
-					<div class="col-sm-4 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
-						<h4>Additional Knowledge</h4>
-						<ul class="fa-ul skills-ul">
-						  <li><i class="fa-li fa fa-check"></i>Microsoft Excel/PPT</li>
-						  <li
-						  ><i class="fa-li fa fa-check"></i>Adobe Photoshop/Illustrator</li>
-						  <li><i class="fa-li fa fa-check"></i>Sketch</li>
-						  <li><i class="fa-li fa fa-check"></i>Git</li>
-						  <li><i class="fa-li fa fa-check"></i>Balsamiq</li>
-						  <li><i class="fa-li fa fa-check"></i>Jupyter Notebook</li>
-						  <li><i class="fa-li fa fa-check"></i>Optimizely</li>
-						</ul>						
-					</div>
-				</div>
-				<div class="row personal-skills">
-					<div class="col-sm-8 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.1s">
-						<h4>Concepts</h4>
-						<div class="lang-container">
-							<input type="text" value="80" class="dial" 
-								data-width="100"
-								data-height="100"
-								data-fgColor="#869198"
-								data-skin="tron"
-								data-thickness=".2"
-								data-displayPrevious=true
-								data-readOnly=true>
-							<p class="lang-description">Product </p>
-							<p class="lang-description">Management</p>
-							<span class="lang-level"> </span>
-						</div>
-						<div class="lang-container">
-							<input type="text" value="75" class="dial" 
-								data-width="100"
-								data-height="100"
-								data-fgColor="#869198"
-								data-skin="tron"
-								data-thickness=".2"
-								data-displayPrevious=true
-								data-readOnly=true>
-							<p class="lang-description">Data </p>
-							<p class="lang-description">Analysis</p>
-							<span class="lang-level"> </span>
-						</div>
-						<div class="lang-container">
-							<input type="text" value="40" class="dial" 
-								data-width="100"
-								data-height="100"
-								data-fgColor="#869198"
-								data-skin="tron"
-								data-thickness=".2"
-								data-displayPrevious=true
-								data-readOnly=true
-								data-bgColor="#fff">
-							<p class="lang-description">User</p>
-							<p class="lang-description">Research</p>
-							<span class="lang-level"></span>
-						</div>
-					</div>
-					<div class="col-sm-4 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.1s">
-						<h4>Hobbies</h4>
-						<ul class="fa-ul skills-ul">
-						  <li><i class="fa-li fa fa-camera"></i>Photography</li>
-						  <li><i class="fa-li fa fa-send"></i>Traveling</li>
-						  <li><i class="fa-li fa fa-music"></i>Hip Hop Dance</li>
-						  <li><i class="fa-li fa fa-microphone"></i>Karaoke</li>
-						  <li><i class="fa-li fa fa-spoon"></i>Eating Food</li>
-						  <li><i class="fa-li fa fa-dribbble"></i>Basketball</li>
-						</ul>	
-					</div>
-					<!-- <div class="col-sm-4 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.1s">
-						<h4>Relevant Coursework</h4>
-						<ul class="fa-ul skills-ul">
-						  <li><i class="fa-li fa fa-pencil"></i>Data Science</li>
-						  <li><i class="fa-li fa fa-pencil"></i>Probability and Statistics</li>
-						  <li><i class="fa-li fa fa-pencil"></i>Interpretations of Computer Programs</li>
-						  <li><i class="fa-li fa fa-pencil"></i>Data Structure</li>
-						  <li><i class="fa-li fa fa-pencil"></i>Service Operations Design & Analysis</li>
-						  <li><i class="fa-li fa fa-pencil"></i>Principles of Business</li>
-						  <li><i class="fa-li fa fa-pencil"></i>Economic Theory</li>
-						</ul>	
-					</div> -->
-				</div>
-			</div>
-		</section>
-		
-		<!-- Portfolio -->
-		<section id="portfolio" class="section section-solid">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h3 class="section-title">Projects</h3>
-						<div class="section-title-border"></div>
-						<p align = "center">These are my projects that I've developed or contributed to. My main interests and previous projects lie in web development, application design, and data-related programs. Many of these are still under construction and will be coming soon! </p>
-					</div>
-				</div>
-
-				<div class="row wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
-					<div class="col-sm-12 text-center">
-						<ul id="filter" class="list-inline filter-tags">
-							<li><a href="all" class=" btn-sm btn-theme-inverse btnactive" data-group="all">All</a></li>
-							<li><a href="branding" class="btn btn-sm btn-theme-inverse" data-group="branding">Product Design</a></li>
-							<li><a href="web" class="btn btn-sm btn-theme-inverse" data-group="data">Data Science</a></li>
-							<li><a href="app" class="btn btn-sm btn-theme-inverse" data-group="writing">Writing</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="GITheWall">
-				<ul id="portfolio-container" class="text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
-					<li class="portfolio-item" data-groups='["all", "data"]' class="portfolio-link">
-						<figure>
-							<span class="project-title">Airbnb Data Analysis</span><br>
-							<span class="project-category">data science</span>
-							<div class="portfolio-img" href = "#" data-target = "#portfolioModal6" data-toggle="modal">
-								<a class="overlay"></a>
-								<img src="assets/img/portfolio/airbnb.jpg" alt="" class="img-responsive">
-							</div>
-							<div class = "project_description"> 
-								<span>Using Scikit-learn, Numpy, Pandas and Matplotlib, analyzed Airbnb listing data to understand and predict SF pricings </span>
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
-						<figure>
-								<span class="project-title">eBay SOLO</span><br>
-								<span class="project-category">product design</span>
-							<div class="portfolio-img" href = "#" data-target = "#portfolioModal3" data-toggle="modal">
-								<img src="assets/img/portfolio/solo.jpg" class="img-responsive">
-							<a class="overlay"></a>
-							</div>
-							<div class = "project_description">
-								<span> Product concept of a gifting and wish-listing app for millennials that combines power of social media and structured data </span>
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
-						<figure>
-							<span class="project-title">Charter </span><br>
-							<span class="project-category">product design</span>
-							<div class="portfolio-img" href = "#" data-target = "#portfolioModal1" data-toggle="modal">
-								<img src="assets/img/portfolio/charter.jpg" alt="" class="img-responsive"> 
-								<a class="overlay"></a>
-							</div>
-							<div class = "project_description">
-								<span> Proof-of-concept feature that combines traditional map and calendar to visualizes schedules spatially and temporally</span>
-							</div>
-						</figure>
-					</li>
-					<!-- <li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
-						<figure>
-							<span class="project-title">EvenTrack</span><br>
-							<span class="project-category">product design</span>
-							<div class="portfolio-img" href = "#" data-target = "#portfolioModal7" data-toggle="modal">
-								<img src="assets/img/portfolio/event.jpg" alt="" class="img-responsive">
-								<a class="overlay"></a>
-							</div>
-							<div class = "project_description">
-								<span>As a finalist to Wells Fargo Protothon, created a product concept that allows Millennials to track their finances </span>
-							</div>
-						</figure>
-					</li> -->
-					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
-						<figure>
-							<span class="project-title">Eluci Foundation</span><br>
-							<span class="project-category">product design</span>
-							<div class="portfolio-img" href = "#" data-target = "#portfolioModal4" data-toggle="modal">
-								<img src="assets/img/portfolio/eluci.jpg" alt="" class="img-responsive">
-								<a class="overlay"></a>
-							</div>
-							<div class = "project_description">
-								<span>Founded a verified 501c3 non-profit organization that focuses on using design to raise awareness for social issues </span>
-							</div>
-						</figure>
-					</li>
-					<!-- <li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
-						<figure>
-							<span class="project-title">CMG Website</span><br>
-							<span class="project-category">product design</span>
-							<div class="portfolio-img" href = "#" data-target = "#portfolioModal2" data-toggle="modal">
-								<img src="assets/img/portfolio/cmg.jpg" alt="" class="img-responsive">
-								<a class="overlay"></a>
-							</div>
-							<div class = "project_description">
-								<span>Built website using bootstrap libraries. Implemented Knight Timeline, profile modals, image rotators and contact forms</span>
-							</div>
-						</figure>
-					</li> -->
-					<li class="portfolio-item" data-groups='["all", "writing"]' class="portfolio-link">
-						<figure>
-							<span class="project-title">Quora Answers</span><br>
-							<span class="project-category">writing</span>
-							<div class="portfolio-img" href = "#" data-target = "#portfolioModal5" data-toggle="modal">
-								<img src="assets/img/portfolio/quora.jpg" alt="" class="img-responsive">
-								<a class="overlay"></a>
-							</div>
-							<div class = "project_description">
-								<span> As the most viewed writer in data science and 5 other fields as of June 2016, I use quora to explore new emerging tech fields </span>
-							</div>
-						</figure>
-					</li>
-					</li> 
-					<!-- <li class="portfolio-item" data-groups='["all", "writing"]' class="portfolio-link">
-						<figure>
-							<span class="project-title">LinkedIn Articles</span> <br>
-							<span class="project-category">writing</span>
-							<div class="portfolio-img" href = "#" data-target = "#portfolioModal8" data-toggle="modal">
-								<img src="assets/img/portfolio/blog.jpg" alt="" class="img-responsive">
-								<a class="overlay"></a>
-							</div>
-							<div class = "project_description">
-								<span> Articles written about data science, technology and my life experience and how each of these things relate to the bigger picture </span>
-							</div>
-						</figure>
-					</li> -->
-					<li class="portfolio-item" data-groups='["all", "branding"]' class="portfolio-link">
-						<figure>
-							<span class="project-title">eBay Me</span><br>
-							<span class="project-category">product design</span>
-							<div class="portfolio-img" href = "#" data-target = "#portfolioModal9" data-toggle="modal">
-								<img src="assets/img/portfolio/me.jpg" alt="" class="img-responsive">
-								<a class="overlay"></a>
-							</div>
-							<div class = "project_description">
-								<span> At eBay's intern conference, I pitched eBay Me. The presentation was in front of over 200+ interns, along with chief executives. </span>
-							</div>
-						</figure>
-					</li>
-					<!-- <li class="portfolio-item" data-groups='["all", "branding"]' href="#portfolioModal10" data-toggle="modal" class="portfolio-link">
-						<figure>
-							<div class="portfolio-img">
-								<a class="overlay">
-									<span class="title"> Title of Project</span>
-									<span class="category">program</span>
-								</a>
-								<img src="assets/img/portfolio/10.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li> -->
-				</ul>
-			</div>
-
-	<!-- Portfolio Modals-->
-		<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1"><input autofocus>
-	        <div class="modal-content">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-lg-8 col-lg-offset-2">
-	                        <div class="modal-body">
-	                        	<body onkeypress="ESCclose(event)">
-	                            <h2>Charter</h2>
-	                            <hr>
-	                            <p>Charter is a proof-of-concept feature that combines a traditional map, calendar and school application together. It shows a user-friendly interface that visualizes one's schedule that interacts with other locations both spatially and temporally.</p>
-	                            <div class = "restructure">
-	                            	<embed src="assets/pdf/charter.pdf#page=1&zoom=50" type="application/pdf" width="700px" height="500px">
-  								</div>
-	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-	   <!-- 	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1"><input autofocus>
-	        <div class="modal-content">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-lg-8 col-lg-offset-2">
-	                        <div class="modal-body">
-	                        	<body onkeypress="ESCclose(event)">
-	                            <h2>CMG Consulting Website</h2>
-	                            <hr>
-	                            <p> CMG Strategy Consulting is UC Berkeley's premier consulting organization that provides comprehensive market research, competitor analysis, and strategy recommendations. <br><br>Using HTML / CSS / Javascript and Bootstrap, I created the club website. It lays out the organization's goals, vision, timeline, clients and contact information.</p>
-	                            <h4><u><a target = "_blank" href = "http://www.berkeleycmg.com"> Go to CMG Consulting's Website! </a><u><h4> <br> <br>
-	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div> -->
-	    <div class="portfolio-modal modal fade" id="portfolioModal3"><input autofocus>
-	        <div class="modal-content">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-lg-8 col-lg-offset-2">
-	                        <div class="modal-body">
-	                        	<body onkeypress="ESCclose(event)">
-	                            <h2>eBay SOLO</h2>
-	                            <hr>
-	                            <p>During my internship at eBay, my team made a product concept for a gifting app that focuses on millennials. We compiled all our design, research and ideas into the slidedeck and a visual demo.</p>
-	                            <div class = "restructure">
-	                            	<embed src="assets/pdf/solo.pdf#page=1&zoom=50" type="application/pdf" width="700px" height="500px" align="center">
-	                            </div><br>
-	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-	    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1"><input autofocus>
-	        <div class="modal-content">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-lg-8 col-lg-offset-2">
-	                        <div class="modal-body">
-	                        	<body onkeypress="ESCclose(event)">
-	                            <h2>Eluci Foundation</h2>
-	                            <hr>
-	                            <p> I founded a 501c3 Non-profit organization that seeks to empower women and sexual assault victims through design-orientated awareness program. Raised $1,500+ through an Indiegogo Campaign to donate to charity.</p>
-	                            <img src="assets/pdf/eluci_ss.png" width="100%" height="600">
- 								 </img>
-	                            <h4><u><a target = "_blank" href = "https://www.indiegogo.com/projects/halt-sexual-assault#/ideas/"> Check out our Indiegogo Campaign! </a></u></h4> <br> <br>
-	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-	    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1"><input autofocus>
-	        <div class="modal-content">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-lg-8 col-lg-offset-2">
-	                        <div class="modal-body">
-	                            <body onkeypress="ESCclose(event)">
-	                            <h2>Quora Profile</h2>
-	                            <hr>
-	                            <p> I am the most viewed writer in Data Science (March - June 2016), with 130,000+ views on my answers. I love to write about data science, millennials, and technology.
-	                            </p>
-	                            <img src="assets/pdf/quora_ss.png" width="75%" height="600">
- 								</img>
-	                            <h4><u><a target = "_blank" href = "https://www.quora.com/profile/Paul-Jeon-3"> Check out my Quora Profile! </a></u></h4>
-	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-	    <div class="portfolio-modal modal fade" id="portfolioModal6" >
-	        <div class="modal-content">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-lg-8 col-lg-offset-2">
-	                        <div class="modal-body">
-	                            <h2>Airbnb Data Analysis</h2>
-	                            <hr>
-	                            <p>Using the Inside Airbnb listings data for San Francisco, I was able to understand popular trends and predict SF listing prices given certain characteristics. </p> <br>
-
-								<p>Written in Python (packages: numpy, pandas, scikit-learn, mpl_toolkits, matplotlib),t his project is meant to give deeper understanding of the airbnb listing data, and introduce how powerful and convenient scikit-learn package's algorithm functions are.</p>
-	                            <img src="assets/pdf/airbnb1.png" width="100%" height="400"> </img>
-	                            <span> Airbnb's most important feature based on machine learning </span> <br><br>
- 								<h4><u><a target = "_blank" href = "https://github.com/pauljeon/airbnb-data-analysis/blob/master/analysis.ipynb"> Check out the full analysis! </a></u></h4>
-	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-<!-- 	    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1"><input autofocus>
-	        <div class="modal-content">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-lg-8 col-lg-offset-2">
-	                        <div class="modal-body">
-	                        	<body onkeypress="ESCclose(event)">
-	                            <h2>EvenTrack <br> Wells Fargo Protothon</h2>
-	                            <hr>
-	                            <p> A protothon is a participatory design experience, where people from different backgrounds and skills come together in teams to generate ideas and design “prototype” solutions. I created a product concept that allows Millennials to keep track of their finances through schedules, salary, events and goals. </p>
-	                            <h4><u><a target = "_blank" href = "http://stories.wellsfargobank.com/millennials-create-remedies-improving-financial-health/"> Check out WF's blog post on the protothon! </a></u></h4> <br> <br>
-	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div> -->
-	   <!--  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1"><input autofocus>
-	        <div class="modal-content">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-lg-8 col-lg-offset-2">
-	                        <div class="modal-body">
-	                        	<body onkeypress="ESCclose(event)">
-	                            <h2>LinkedIn Articles</h2>
-	                            <hr>
-	                            <p> I love to write about data science, technology and start-ups. I love to write about how the technology intersects society, with a strong focus on its impact on Millennials.</p>
-	                             <a target="_blank" href="https://www.linkedin.com/pulse/snapchat-power-10-seconds-paul-jeon?trk=pulse_spock-articles"> <img src="assets/pdf/blog_snapchat.png" width="100%" height="100%">
- 								 </img></a>
- 								 <a target="_blank" href="https://www.linkedin.com/pulse/7-steps-become-data-scientist-paul-jeon?trk=pulse_spock-articles" ><img src="assets/pdf/blog_data.png" width="100%" height="100%">
- 								 </img></a>
-	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div> -->
-	    <div class="portfolio-modal modal fade" id="portfolioModal9" >
-	        <div class="modal-content">
-	            <div class="container">
-	                <div class="row">
-	                    <div class="col-lg-8 col-lg-offset-2">
-	                        <div class="modal-body">
-	                            <h2>eBay Me: Pitch Presentation</h2>
-	                            <hr>
-	                            <p> At eBay's annual intern conference, I pitched eBay Me: A selling platform for services and labor. The presentation was in front of over 200+ interns, along with few chief executives.</p>
-	                            <span> Watch the full speech here! </span> <br> <br>
-	                            <iframe width="420" height="315" src="https://www.youtube.com/embed/UJSHauhdMKE" frameborder="0" allowfullscreen></iframe> <br> <br>
-	                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-		</section>
-
-		<!-- Facts -->
+		<!-- Counter -->
 		<section id="facts" class="section">
 			<div class="container">
 				<div class="row text-center wow fadeInDown" data-wow-duration="3.0s" data-wow-delay="0s">
-					<div class="col-sm-3">
-						<h1 class="counter">5</h1>
+					<div class="col-sm-6 col-lg-6 col-md-6">
+						<h1 class="counter" style="font-size:30px">8</h1>
 						<p>Winning Awards</p>
 					</div>
-					<div class="col-sm-3">
-						<h1 class="counter">6</h1>
+					<div class="col-sm-6 col-lg-6 col-md-6">
+						<h1 class="counter" style="font-size:30px">16</h1>
 						<p>Personal Projects</p>
 					</div>
-					<div class="col-sm-3">
-						<h1>
-						<span class="counter">200</span>+</h1>
+					<div class="col-sm-6 col-lg-6 col-md-6">
+						<h1 style="font-size:30px">
+						<span class="counter">285</span>+</h1>
 						<p>Team Meetings</p>
 					</div>
-					<div class="col-sm-3">
-						<h1>
-						<span class="counter">1000</span>+</h1>
+					<div class="col-sm-6 col-lg-6 col-md-6">
+						<h1 style="font-size:30px">too many</h1>
 						<p>Cups of Coffee</p>
 					</div>
 				</div>
 			</div>
 		</section>
 		
+		
+
+		<!-- Portfolio -->
+		<section class="section section-solid">
+			<div id="portfolio" class="anchorz"> </div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="section-title">Projects</h3>
+						<div class="section-title-border"></div>
+							<div class="col-sm-12">
+							<p align = "center">These are my projects that I've developed or contributed to. My main interests and previous projects lie in web development, application design, and data-related programs. I'm always working on a new project - stay tuned for more! </p><br>
+						</div>
+					</div>
+				</div>
+
+				<!-- Airbnb Data Analysis -->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5 leftReveal">
+							<img src="assets/img/project/airbnb.jpg" class="portfolio_photo">
+						</div>
+						<div class="col-sm-6 mt30-xs rightReveal">
+							<div class="writing-title">Airbnb Data Analysis</div>
+							<div class="published"> Data Analysis </div>
+							<span class="ion-android-sunny logo-about"></span>
+							<p> Using the Inside Airbnb listings data for San Francisco, I was able to understand popular trends and predict prices. Written in Python (packages: numpy, pandas, scikit-learn, mpl_toolkits, matplotlib), this project is meant to give deeper understanding of the airbnb listing data, and introduce how powerful and convenient scikit-learn package's algorithm functions are.
+							 </p>
+							<a href="https://github.com/pauljeon/airbnb-data-analysis/blob/master/analysis.ipynb" target="_blank" class="readmore"> Full Analysis Here </a>
+						</div>
+					</div>
+				</div><br><br>
+
+				<!-- eBay 5OLO -->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5 leftReveal">
+							<img src="assets/img/project/solo.jpg" class="portfolio_photo">
+						</div>
+						<div class="col-sm-6 mt30-xs rightReveal">
+							<div class="writing-title">5OLO</div>
+							<div class="published"> Mobile Application Design </div>
+							<span class="ion-android-sunny logo-about"></span>
+							<p> During my internship at eBay, my hackathon team made a product concept for a gifting app that focuses on millennials. We compiled all our design, research and ideas into the slidedeck and a visual demo.
+							 </p>
+							<a href="assets/pdf/solo.pdf#page=1&zoom=50" target="_blank" data-toggle="modal" class="readmore"> Full Deck Here</a>
+						</div>
+					</div>
+				</div><br><br>
+
+				<!-- Eluci Foundation -->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5 leftReveal">
+							<img src="assets/img/project/eluci.jpg" class="portfolio_photo">
+						</div>
+						<div class="col-sm-6 mt30-xs rightReveal">
+							<div class="writing-title">Eluci Foundation</div>
+							<div class="published"> Non-Profit & Design</div>
+							<span class="ion-android-sunny logo-about"></span>
+							<p> I founded a 501c3 non-profit organization that seeks to empower miniorities and raise social awareness through design projects. Raised $1,500+ through an Indiegogo Campaign to donate to charity.
+							 </p>
+							<a target = "_blank" href = "https://www.indiegogo.com/projects/halt-sexual-assault#/ideas/" class="readmore"> Full Indiegogo Campaign Here</a>
+						</div>
+					</div>
+				</div><br><br>
+
+				<!-- eBay ME -->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5 leftReveal">
+							<img src="assets/img/project/me.jpg" class="portfolio_photo">
+						</div>
+						<div class="col-sm-6 mt30-xs rightReveal">
+							<div class="writing-title">eBay ME </div>
+							<div class="published"> Product Design & Presentation </div>
+							<span class="ion-android-sunny logo-about"></span>
+							<p> At eBay's annual intern conference, I pitched eBay Me: A selling platform for services and labor. The idea was to allow people to sell not only physical items, but also intangible knowledge and experience. The presentation was in front of over 200+ interns, along with few chief executives.
+							 </p>
+							<a target = "_blank" href = "https://www.youtube.com/watch?v=UJSHauhdMKE" class="readmore"> Full Presentation Here</a>
+						</div>
+					</div>
+				</div><br><br>
+
+				<div class= "container" id="hidden-project" style="display:none;padding-left:0px;padding-right:0px;">
+				<!-- Uber Friends -->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5 leftReveal">
+							<img src="assets/img/project/uber.jpg" class="portfolio_photo">
+						</div>
+						<div class="col-sm-6 mt30-xs rightReveal">
+							<div class="writing-title">Uber Friends</div>
+							<div class="published"> Mobile Application Design & Strategy</div>
+							<span class="ion-android-sunny logo-about"></span>
+							<p> UberFriends is a driver-centric feature where users can ride UberPOOL with friends and pay individually. Before the ride starts, both riders would approve of the ride. This allows drivers and riders to have holistic understanding of the route and price, and fairly compensates the drivers for the extra effort.
+							 </p>
+							<a href="assets/pdf/uber.pdf#page=1&zoom=50" target="_blank" data-toggle="modal" class="readmore"> Full Deck Here</a>
+						</div>
+					</div>
+				</div><br><br>
+
+				<!-- Yelp Groups -->
+				<div class="container" >
+					<div class="row">
+						<div class="col-sm-5 leftReveal">
+							<img src="assets/img/project/yelp.jpg" class="portfolio_photo">
+						</div>
+						<div class="col-sm-6 mt30-xs rightReveal">
+							<div class="writing-title">Yelp Groups</div>
+							<div class="published"> Mobile Application Design & Strategy </div>
+							<span class="ion-android-sunny logo-about"></span>
+							<p> Yelp Groups is a product feature within Yelp that allows users to form groups with both friends and strangers. Meant to enhance real life community interaction, Yelp Groups recommends relevant groups, offers discounts, and provides a centralized place for users to create memories with friends.
+							 </p>
+							<a href="assets/pdf/yelp.pdf#page=1&zoom=50" target="_blank" data-toggle="modal" class="readmore"> Full Deck Here</a>
+						</div>
+					</div>
+				</div><br><br>
+
+				<!-- CMG Website -->
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5 leftReveal">
+							<img src="assets/img/project/cmg.jpg" class="portfolio_photo">
+						</div>
+						<div class="col-sm-6 mt30-xs rightReveal">
+							<div class="writing-title">CMG Website</div>
+							<div class="published"> Web Developement </div>
+							<span class="ion-android-sunny logo-about"></span>
+							<p> CMG Strategy Consulting is UC Berkeley's premier consulting organization that provides comprehensive market research, competitor analysis, and strategy recommendations. Using HTML / CSS / Javascript and Bootstrap, I created the club website. It lays out the organization's goals, vision, timeline, clients and contact information.
+							 </p>
+							<a target = "_blank" href = "http://www.berkeleycmg.com/" class="readmore"> Website Here</a>
+						</div>
+					</div>
+				</div><br><br>
+			</div>
+
+			<button class="btn icon-btn btn-primary btn-group-lg wow bounceInBottom"  id="lol" onclick="toggle_visibility('hidden-project');disappear('lol');">See More Projects</button>
+
+			<!-- Portfolio Modals -->
+
+			    
+			    	   
+
+	    </div>
+		</section>
+
+
+		<!-- Writing -->
+		<section class="section section-solid-white" style="z-index: 1050;">
+			<div class="anchorz" id="writing"> </div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="section-title">Writing</h3>
+						<div class="section-title-border"></div>
+
+					</div>
+				</div>
+
+				<!-- Article 1 -->
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-sm-6 mt30-xs rightReveal">
+							<a href="https://www.linkedin.com/pulse/design-meets-development-how-you-can-easily-build-personal-paul-jeon" target="_blank"><div class="writing-title">Design meets Development: How you can build a personal website</div></a>
+							<div class="published" > Published August 2, 2017 </div>
+							<span class="ion-android-sunny logo-about"></span>
+							<p>I believe it's important to make sure one's digital brand stays up to date and up to quality. Having your own website (like this one!) is a fantastic way to showcase your personality, experience and skills. I've detailed how anyone can create a beautiful personal website in this article. </p>
+							<a href="https://www.linkedin.com/pulse/design-meets-development-how-you-can-easily-build-personal-paul-jeon" target="_blank" class="readmore"> READ MORE </a>
+						</div>
+						<div class="col-sm-6 leftReveal">
+							<img class="writing-photo" src="assets/img/writing/web-design.jpg">
+						</div>
+					</div>
+				</div><br><br>
+
+				<!-- Article 1 -->
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-sm-6 mt30-xs leftReveal">
+							<a href="https://www.linkedin.com/pulse/7-steps-become-data-scientist-paul-jeon?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3BH4ijBqvqTweeQNlKco8SsA%3D%3D" target="_blank"><div class="writing-title">Beginner's Roadmap to Data Science</div></a>
+							<div class="published" > Published June 8, 2016 </div>
+							<span class="ion-android-sunny logo-about"></span>
+							<p>Data Science is a very popular emerging field among engineers. It's often difficult to navigate a field that's new and broad. I've outlined 7 specific sub-fields of data science that starting engineers could learn and discover to become master data scientists in the future!</p>
+							<a href="https://www.linkedin.com/pulse/7-steps-become-data-scientist-paul-jeon?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3BH4ijBqvqTweeQNlKco8SsA%3D%3D" target="_blank" class="readmore"> READ MORE </a>
+						</div>
+						<div class="col-sm-6 rightReveal">
+							<img class="writing-photo" src="assets/img/writing/data.jpg">
+						</div>
+					</div>
+				</div><br>
+				</div>
+		</section>
+		
+
+		<!-- Blog -->
+		<section class="section section-solid" style="z-index: 1050;">
+			<div class="anchorz" id="blog"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="section-title">Blog & Photography</h3>
+						<div class="section-title-border"></div>
+							<p align = "center">
+								I love storytelling, traveling and taking photos. <!-- Come check out the cool things I do in my life as I document them in my blogs!  -->
+							 </p> 
+					</div>
+				</div>
+			</div>
+			<div class="GITheWALL">
+				<div id="photo-container" class="text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
+						
+						<img src="assets/img/photography/doi.jpg" style="margin-bottom:3px;width:330px;height:220px">
+						<img src="assets/img/photography/japan_temple.jpg" style="margin-bottom:3px;width:330px;height:220px">
+						<img src="assets/img/photography/palace.jpg" style="margin-bottom:3px;width:330px;height:220px">
+
+			    		<img src="assets/img/photography/couple.jpg" style="margin-bottom:3px;width:330px;height:220px"> 
+			    		<img src="assets/img/photography/family_sunset.jpg" style="margin-bottom:3px;width:330px;height:220px">
+						<img src="assets/img/photography/albert.jpg" style="margin-bottom:3px;width:330px;height:220px">
+			    		
+			    		<img src="assets/img/photography/tammy.jpg" style="margin-bottom:3px;width:330px;height:220px"> 
+			    		<img src="assets/img/photography/winston.jpg" style="margin-bottom:3px;width:330px;height:220px">
+			    		<img src="assets/img/photography/sutro_bath.jpg" style="margin-bottom:3px;width:330px;height:220px">
+			    		
+			    		<img src="assets/img/photography/ipad.jpg" style="margin-bottom:3px;width:330px;height:220px">
+			    		<img src="assets/img/photography/lauren.jpg" style="margin-bottom:3px;width:330px;height:220px">
+			    		<img src="assets/img/photography/latte.jpg" style="margin-bottom:3px;width:330px;height:220px">
+			    		
+
+			    </div>
+			</div>
+			<br>
+			<!-- <a href="http://pauljeon.com/blog" target="_blank" class="btn icon-btn btn-primary blogbutton"> Go To Paul's Blog! </a> -->
+		</section>
+
+		
 		<!-- Contact -->
-		<section id="contact" class="section">
+		<section class="section">
+			<div class="anchorz" id="contact"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
@@ -869,57 +678,20 @@
 					</div>
 				</div>
 				<div class="row">
-					<!-- <div class="col-sm-6 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s"> -->
-						<p>
-							<strong>Connect with me!</strong> <br>If you have any inquiries, or would like to speak to me about any opportunities, don't hesitate to shoot me an email at yjeon@berkeley.edu!
-						</p>
-						<!-- <ul class="list-contacts">
-							<li><i class="fa fa-mobile-phone"></i> (925) 785-2381</li>
-							<li><i class="fa fa-map-marker"></i> 2520 Hillegass Avenue <br> Berkeley, CA 94720</li>
-							<li><i class="fa fa-envelope-o"></i> <a href="mailto:yjeon@berkeley.edu">yjeon@berkeley.edu</a></li>
-						</ul> -->
-					<!-- </div> -->
-					<!-- <div class="col-sm-6 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
-						<form class="form-horizontal" action="assets/php/contactForm.php" method="post" role="form" id="contactForm">
-							<div class="form-group">
-								<div class="col-sm-6">
-									<input type="text" name="name" class="form-control" placeholder="Name">	
-								</div>
-								<div class="col-sm-6">
-									<input type="text" name="contactEmail" class="form-control" placeholder="Email">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<textarea name="message" class="form-control" rows="8" placeholder="Message"></textarea>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<button type="submit" class="btn btn-theme ladda-button" data-style="expand-left">
-									<span class="ladda-label">Submit</span>
-									</button>
-								</div>
-							</div>
-						</form>
-					</div> -->
+					<div class="col-sm-12 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
+						<p> <strong>Connect with me!</strong> <br>If you have any inquiries, or would like to speak to me about any opportunities, don't hesitate to shoot me an email at yjeon0@gmail.com or send me a <a href="https://www.linkedin.com/in/pauljeon1" target="_blank" style="color:#337ab7;">LinkedIn message. </a></p>
+					</div>
 				</div>
 			</div>
 		</section>
 		
+
+		<!-- Footer -->
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6">Copyright &copy; 2016 Paul Jeon. All rights reserved.</div>
-					<div class="col-sm-6 text-right">
-						<div class="social">
-							<!-- <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
-							<a href="#" class="btn btn-theme"><i class="fa fa-dribbble"></i></a>
-							<a href="#" class="btn btn-theme"><i class="fa fa-linkedin"></i></a> -->
-						</div>
-					</div>
+					<div class="col-sm-6">Copyright &copy; 2017 Paul Jeon. All rights reserved.</div>
+					<div class="col-sm-6 text-right"></div>
 				</div>
 			</div>
 		</footer>
@@ -930,10 +702,29 @@
  				if (evt.keyCode == 27)
   			 jQuery('#modal').close();
  			}
+
 		</script>
+
+		<script type="text/javascript">
+		    function toggle_visibility(id) {
+		       var e = document.getElementById(id);
+		       if(e.style.display == '')
+		          e.style.display = 'none';
+		       else
+		          e.style.display = '';
+		    }
+
+		    function disappear(id) {
+		       var e = document.getElementById(id);
+		       e.style.display = 'none';
+		    }
+
+		</script>
+
+		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<!-- <script src="assets/js/jquery.min.js"></script> -->
 		<script src="assets/js/jquery.min.js"></script>
+
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="assets/js/bootstrap.js"></script>
 		<script src="assets/js/jquery.backstretch.min.js"></script>
@@ -953,10 +744,13 @@
 		<script src="assets/js/jquery.knob.min.js"></script>
 		<script src="assets/js/jquery.scrollTo.min.js"></script>
 		<script src="assets/js/app.js"></script>
+
 		<!-- Include js plugin -->
 		<script src="owl-carousel/owl.carousel.js"></script>
+
 		<!-- Custom scripts -->
 		<script src="owl-carousel/custom.js"></script>
+
 		<!-- Modal for portfolio -->
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	</body>
