@@ -628,12 +628,12 @@ p.copyright {
  *  --------------------------------------------------------- */
 @media (min-width: 1200px) {
   .container {
-    width: 900px;
+    width: 1100px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 800px;
+    width: 1000px;
   }
 }
 /*
@@ -652,8 +652,9 @@ p.copyright {
 .navbar-default .navbar-nav > li > a {
   color: white;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
+  margin-right:20px;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -1245,10 +1246,10 @@ form.signup button.btn {
 .feature-box .description p {
   font-size: 14px;
   zoom: 1;
-  filter: alpha(opacity=70);
-  -webkit-opacity: 0.7;
-  -moz-opacity: 0.7;
-  opacity: 0.7;
+  filter: alpha(opacity=100);
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
   line-height: 24px;
 }
 /* Small devices (tablets, 768px and up) */
@@ -1305,7 +1306,7 @@ form.signup button.btn {
   transition: all 0.3s ease-in-out;
 }
 .overlay:hover {
-  opacity: 1;
+  opacity: 0;
 }
 .overlay span {
   display: inline-block;
@@ -1375,7 +1376,7 @@ form.signup button.btn {
 .project-category {
   font-size: 15px;
   width:90%;
-  font-weight: lighter;
+  font-weight: 400;
 }
 /* Small devices (tablets, 480px and up) */
 @media (min-width: 480px) {
