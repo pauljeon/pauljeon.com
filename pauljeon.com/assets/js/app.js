@@ -20,7 +20,7 @@ $(function () {
 	 */
 	
 	$.backstretch([
-		"assets/img/background/gg.jpg",
+		"assets/img/background/hawaii.jpg",
 	], {duration: 3800, fade: 1500});
 	
 	
