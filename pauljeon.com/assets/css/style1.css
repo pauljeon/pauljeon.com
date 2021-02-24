@@ -1493,7 +1493,7 @@ margin-top:10px;
 .soundcloud span {
     background-color: #ff8800;
 }
-.wordpress span {
+.camera span {
 	background-color: #464646;
 }
 .icon-button .icon-youtube {
@@ -1508,7 +1508,7 @@ margin-top:10px;
 .icon-button .icon-github {
     color: black;
 }
-.icon-button .fa-fw {
+.icon-button .icon-quora {
     color: #AA2200;
 }
 .icon-button .icon-yelp {
@@ -1520,15 +1520,15 @@ margin-top:10px;
 .icon-button .icon-soundcloud {
     color: #ff8800;
 }
-.icon-button .icon-wordpress {
+.icon-button .icon-camera {
 	color: #464646;
 }
 .icon-button:hover .icon-youtube,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-linkedin,
 .icon-button:hover .icon-github,
-.icon-button:hover .icon-wordpress,
-.icon-button:hover .fa-fw,
+.icon-button:hover .icon-camera,
+.icon-button:hover .icon-quora,
 .icon-button:hover .icon-instagram,
 .icon-button:hover .icon-soundcloud,
 .icon-button:hover .icon-yelp {
